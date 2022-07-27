@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap'); */
+
+body {
+  /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Roboto', Helvetica , sans-serif;
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #222222;
+  border-radius: 100px;
+  margin: 2px;
+}

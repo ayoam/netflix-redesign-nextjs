@@ -1,0 +1,37 @@
+{
+  "name": "netflix-clone-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.6",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "axios": "^0.27.2",
+    "firebase": "^9.9.1",
+    "framer-motion": "^6.5.1",
+    "next": "12.2.2",
+    "nextjs-progressbar": "^0.0.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-firebase-hooks": "^5.0.3",
+    "react-hook-form": "^7.33.1",
+    "react-hot-toast": "^2.3.0",
+    "react-icons": "^4.4.0",
+    "react-player": "^2.10.1",
+    "react-slick": "^0.29.0",
+    "recoil": "^0.7.4",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.2",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  }
+}
